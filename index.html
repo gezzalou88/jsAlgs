@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Algorithms</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script type="text/javascript" src="functions.js"></script>
+  </head>
+  <body>
+  	<div>
+  	<h1>JavaScript Algorithms</h1>
+  	<h2>Run my algorithms created following the Free Code Camp syllabus</h2>
+    <div class='container-fluid'>
+      <div class="row">
+      <div class="col-lg-4">
+      <h3>Select which algorithm to run</h3>
+      <form action="index.php">
+		   <input type="radio" name="color" value="revStr" id="revStr"/> Reverse a String<br/>
+		   <input type="radio" name="color" value="factNum" id="factNum"/> Factorialize a Number<br/>
+		   <input type="radio" name="color" value="checkPal" id="checkPal"/> Check for Palindromes<br/>
+		   <input type="radio" name="color" value="longWord" id="longWord"/> Find the Longest Word in a String<br/>
+		   <input type="radio" name="color" value="tileCase" id="tileCase"/> Title Case a Sentence Complete<br/>
+		   <input type="radio" name="color" value="largeNum" id="largeNum"/> Return Largest Numbers in Arrays<br/>
+		   <input type="radio" name="color" value="confEnd" id="confEnd"/> Confirm the Ending<br/>
+		   <input type="radio" name="color" value="repStr" id="repStr"/> Repeat a string repeat a string<br/>
+		   <input type="radio" name="color" value="truncStr" id="truncStr"/> Truncate a string<br/>
+		   <input type="radio" name="color" value="chunkMonk" id="chunkMonk"/> Chunky Monkey<br/>
+		   <input type="radio" name="color" value="slashFlick" id="slashFlick"/> Slasher Flick<br/>
+		   <input type="radio" name="color" value="mutation" id="mutation"/> Mutations<br/>
+		   <!--<input type="radio" name="color" value="falBounc" id="falBounc"/> Falsy Bouncer<br/>-->
+		   <input type="radio" name="color" value="seekDestroy" id="seekDestroy"/> Seek and Destroy<br/>
+		   <input type="radio" name="color" value="whereBel" id="whereBel"/> Where do I belong<br/>
+		   <input type="radio" name="color" value="caesCip" id="caesCip"/> Caesars Cipher<br/>
+	  </form><p/>
+	  </div>
+	  <div class="col-lg-4">
+	  <h3>Description of Algorithm</h3>
+	  <p id='algDes'>A description of the algorithm once selected will appear here</p>
+	  </div>
+	  <div class="col-lg-4">
+	  	  <h3 id='enterData'>Instructions</h3>
+	  	  <p id='instructions'>The instructions of what to submit will appear here when an algorithm has been selected</p>
+	  	  <p><input type="text" id="answerText"></p><p><input type="text" id="answerText2"></p><p><input type="text" id="answerText3"></p><p><input type="button" id="submitRun" value="Submit"></p>
+	  	  	<p>The Result is:</p><p><span id='result'></span></p>
+	  </div>
+     </div>
+
+
+
+
+    </div>
+    </div>
+    <footer>
+        <h5><b>Created by Gemma Hackney - October 2016</b></h5>
+    </footer>
+  </body>
+</html>
